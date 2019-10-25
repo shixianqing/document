@@ -104,4 +104,6 @@ Redis 有序集合和集合一样也是string类型元素的集合,且不允许�
 	- 按分值，倒序
 	
 			ZREVRANK key member
-9. 
+9. 移除有序集合中的一个或多个成员
+
+		ZREM key member [member ...] 
